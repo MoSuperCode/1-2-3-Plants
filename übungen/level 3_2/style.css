@@ -1,0 +1,179 @@
+@font-face {
+    font-family: OpenS;
+    src: url("../assets/Fonts/open_sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: Fredericka;
+    src: url("../assets/Fonts/Fredericka/FrederickatheGreat-Regular.ttf");
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background: url("https://lh6.googleusercontent.com/d1gGeALk0a4Tz7OvP4rH8lyhc-ITWufBlXYteUhDshnW-OBcf5V_VERW_JqN1DYdF8z-WU99dit3BSo=w1903-h961");
+    height: 70vh;
+    background-size: cover;
+    color: white;
+    font-family: Fredericka;
+}
+
+header h1 {
+
+    margin: 0px 0px 0px 100px;
+    padding-top: 20px;
+}
+
+
+
+header section {
+    text-align: center;
+    margin-top: 20vh;
+}
+
+header section p {
+    margin: 20px 0px 30px 0px;
+    width: 300px;
+    ;
+}
+
+.ReadMore {
+    border: 1px solid white;
+    margin-top: 30px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white
+}
+
+header section p {
+    margin-right: auto;
+    margin-left: auto
+}
+
+header ul {
+    color: white;
+    margin-right: 20px;
+    margin-top: 80vh;
+}
+
+.Info {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    margin-right: 40px;
+    font-family: OpenS;
+    margin-top: 5px;
+}
+
+.Ul-Info {
+    margin-top: inherit;
+    margin-top: 3%;
+
+}
+
+body header section {
+    text-align: center;
+}
+
+body h3 {
+    margin-top: 40px;
+    letter-spacing: 2px;
+    font-family: Fredericka;
+    text-align: center;
+}
+
+body main p {
+    margin-top: 40px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+
+body main {
+    text-align: center;
+}
+
+body main a {
+    border: 3px solid grey;
+    padding: 20px 20px 20px 20px;
+    width: 40px;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black
+}
+
+footer {
+    margin-top: 80px;
+    padding: 20px;
+
+    background-color: rgb(58, 59, 74);
+    color: white
+}
+
+footer p {
+    width: 40vw;
+    margin-bottom: 30px;
+}
+
+footer section:nth-of-type(1) a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    border: 1px solid white;
+}
+
+footer section:nth-of-type(2) a {
+    text-decoration: none;
+    text-align: right;
+    color: white;
+    margin-left: 10px;
+}
+
+footer section:nth-of-type(2) p {
+    margin-right: 0px;
+    margin-left: 1700px;
+    margin-bottom: 0;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.afooter {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    color: white;
+
+}
+
+.ulfooter {
+    position: relative;
+    list-style-type: none;
+    margin-left: 500px;
+    margin-top: 36px;
+    text-align: right;
+}
+
+.lifooter {
+    list-style-type: none;
+    display: inline-block;
+}
+
+header section a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.ahover:hover {
+    text-decoration: underline;
+    color: gray;
+}
